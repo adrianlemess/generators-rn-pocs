@@ -1,0 +1,14 @@
+<View style={{ width: 344,  height: 424 , backgroundColor: '#fffffe' , borderRadius: '4', }}>    </View> 
+<View style={{ width: 360,  height: 35  , }}>    </View> 
+<View style={{ width: 360,  height: 35 , backgroundColor: '#3a659e' , }}>    </View> 
+<View style={{ width: 224,  height: 189  , }}>    </View> 
+<View style={{ width: 82,  height: 96 , backgroundColor: '#80ace0' , }}>    </View> 
+<View style={{ width: 312,  height: 36  , }}>    </View> 
+<View style={{ width: 312,  height: 36 , backgroundColor: '#3a659e' , borderRadius: '18', }}>    </View> 
+<View style={{ width: 360,  height: 80  , }}>    </View> 
+<View style={{ width: 360,  height: 56 , backgroundColor: '#fffffe' , }}>    </View> 
+<View style={{ width: 360,  height: 24 , backgroundColor: '#d7d8dc' , }}>    </View> 
+<View style={{ width: 8,  height: 14 , backgroundColor: '#656975' , }}>    </View> 
+<View style={{ width: 32,  height: 32  , }}>    </View> 
+<View style={{ width: 32,  height: 32 , backgroundColor: '#fff' , }}>    </View> 
+<View style={{ width: 18,  height: 24 , backgroundColor: '#656975' , }}>    </View> 

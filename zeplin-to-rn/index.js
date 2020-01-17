@@ -1,0 +1,8 @@
+const zep2RN = require('zeplin-to-react-native')
+
+const url = 'https://cdn.zeplin.io/5d835e729d6b4254950d5338/screens/5d835ecc253a0654b870c2e6/versions/5d835ecc253a0654b870c2e7/snapshot/5d835ecc253a0654b870c2e8?Expires=1581861577&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uemVwbGluLmlvLzVkODM1ZTcyOWQ2YjQyNTQ5NTBkNTMzOC9zY3JlZW5zLzVkODM1ZWNjMjUzYTA2NTRiODcwYzJlNi92ZXJzaW9ucy81ZDgzNWVjYzI1M2EwNjU0Yjg3MGMyZTcvc25hcHNob3QvNWQ4MzVlY2MyNTNhMDY1NGI4NzBjMmU4IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTgxODYxNTc3fX19XX0_&Signature=P0C0zNkFwMcqMk7kGVkA0OeM9t6O4kuhq6vMTO5DKlvs6~xJeKabmiSUMYrMhLzUN4cy5T7jyBnROrO1-NZRKjcf9XHZPGW3OqNfnnl5mmSATDCXBxx2wyAzmpdH-bSZd8UFI-SqLhsGTA90klpOdx1tPRRAthoO8V3JQ0g1o9zfD5W5lul1gXi2t26QaNNlshophq21TMEOkb2dK1Dib0l22SLMsKGaFImsLJctgqeEz5kOi8RpO5x8M2pMZSGj3WkkVb1CxP-Hh6A4dfaiHX1fekKwSq6glJcLib2aC9EMGgQRAdFR5Q2guFwFNYtMTddPGPZPCNS6Pa3Dir57EA__&Key-Pair-Id=APKAJKD6BRIMESUCGIPA';
+zep2RN.config({ 
+    dir:'components', 
+    url })
+    
+zep2RN.convert().then(res=>console.log(res)).catch(err=> console.log(err))
